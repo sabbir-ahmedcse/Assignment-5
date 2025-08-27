@@ -1,0 +1,29 @@
+answer to the question no-01
+
+getElementById("id") → Returns one element with that id.
+
+getElementsByClassName("class") → Returns a live HTMLCollection of elements with that class.
+
+querySelector("selector") → Returns the first element matching a CSS selector.
+
+querySelectorAll("selector") → Returns a static NodeList of all elements matching a CSS selector.
+
+answer to the question no-02
+parent.appendChild(el) → add as last child
+
+parent.insertBefore(el, ref) → insert before reference
+
+parent.prepend(el) → add as first child
+
+el.before(newEl), el.after(newEl), el.replaceWith(newEl) → relative insertions
+
+answer to the question no-03
+An event (like click) occurs on an element.
+
+The browser first runs the event handler on the target element.
+
+Then it goes up to the parent, then the grandparent, and so on, until it reaches document (and window).
+
+Each ancestor’s event listeners for that event get a chance to run.
+
+
